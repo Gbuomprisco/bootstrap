@@ -19,6 +19,7 @@
     > a {
       position: relative;
       display: block;
+      cursor: pointer;
       padding: @nav-link-padding;
       &:hover,
       &:focus {
@@ -120,10 +121,11 @@
 
     // Links rendered as pills
     > a {
-      border-radius: @nav-pills-border-radius;
+      border-radius: 0;
+      border-bottom: 3px solid @brand-primary;
     }
     + li {
-      margin-left: 2px;
+      margin-left: 4px;
     }
 
     // Active state
@@ -132,7 +134,6 @@
       &:hover,
       &:focus {
         color: @nav-pills-active-link-hover-color;
-        background-color: @nav-pills-active-link-hover-bg;
       }
     }
   }
