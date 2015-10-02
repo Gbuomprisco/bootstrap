@@ -3006,10 +3006,10 @@ select[multiple].input-lg {
 }
 .btn {
   display: inline-block;
-  padding: 3px 25px;
+  padding: 3px 20px;
   margin-bottom: 0;
   font-size: 14px;
-  font-weight: normal;
+  font-weight: 700;
   line-height: 30px;
   text-align: center;
   white-space: nowrap;
@@ -4096,6 +4096,9 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav-pills > li > a {
   color: #777;
   border-radius: 0;
+}
+.nav-pills > li > a:hover {
+  color: #555;
 }
 .nav-pills > li + li {
   margin-left: 4px;
