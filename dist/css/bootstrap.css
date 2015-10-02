@@ -3024,6 +3024,8 @@ select[multiple].input-lg {
   background-image: none;
   border: 1px solid transparent;
   border-radius: 3px;
+  -webkit-box-shadow: 0 1px 6px 0 rgba(0, 0, 0, .3);
+          box-shadow: 0 1px 6px 0 rgba(0, 0, 0, .3);
   -webkit-transition: all .4s;
        -o-transition: all .4s;
           transition: all .4s;
@@ -3088,6 +3090,47 @@ fieldset[disabled] a.btn {
   background-color: #e6e6e6;
   border-color: #adadad;
 }
+@-webkit-keyframes ink {
+  0% {
+    opacity: 1;
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  100% {
+    background-color: #ccc;
+    opacity: 0;
+    -webkit-transform: scale(5);
+            transform: scale(5);
+  }
+}
+@-o-keyframes ink {
+  0% {
+    opacity: 1;
+    -o-transform: scale(0);
+       transform: scale(0);
+  }
+  100% {
+    background-color: #ccc;
+    opacity: 0;
+    -o-transform: scale(5);
+       transform: scale(5);
+  }
+}
+@keyframes ink {
+  0% {
+    opacity: 1;
+    -webkit-transform: scale(0);
+         -o-transform: scale(0);
+            transform: scale(0);
+  }
+  100% {
+    background-color: #ccc;
+    opacity: 0;
+    -webkit-transform: scale(5);
+         -o-transform: scale(5);
+            transform: scale(5);
+  }
+}
 .btn-default:active:hover,
 .btn-default.active:hover,
 .open > .dropdown-toggle.btn-default:hover,
@@ -3145,6 +3188,34 @@ fieldset[disabled] .btn-default.focus {
   color: #fff;
   background-color: #217dbb;
   border-color: #1c699d;
+}
+@-webkit-keyframes ink {
+  0% {
+    opacity: 1;
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  100% {
+    background-color: #258cd1;
+    opacity: 0;
+    -webkit-transform: scale(5);
+            transform: scale(5);
+  }
+}
+@keyframes ink {
+  0% {
+    opacity: 1;
+    -webkit-transform: scale(0);
+         -o-transform: scale(0);
+            transform: scale(0);
+  }
+  100% {
+    background-color: #258cd1;
+    opacity: 0;
+    -webkit-transform: scale(5);
+         -o-transform: scale(5);
+            transform: scale(5);
+  }
 }
 .btn-primary:active:hover,
 .btn-primary.active:hover,
@@ -3204,6 +3275,34 @@ fieldset[disabled] .btn-primary.focus {
   background-color: #25a25a;
   border-color: #1e854a;
 }
+@-webkit-keyframes ink {
+  0% {
+    opacity: 1;
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  100% {
+    background-color: #29b765;
+    opacity: 0;
+    -webkit-transform: scale(5);
+            transform: scale(5);
+  }
+}
+@keyframes ink {
+  0% {
+    opacity: 1;
+    -webkit-transform: scale(0);
+         -o-transform: scale(0);
+            transform: scale(0);
+  }
+  100% {
+    background-color: #29b765;
+    opacity: 0;
+    -webkit-transform: scale(5);
+         -o-transform: scale(5);
+            transform: scale(5);
+  }
+}
 .btn-success:active:hover,
 .btn-success.active:hover,
 .open > .dropdown-toggle.btn-success:hover,
@@ -3261,6 +3360,34 @@ fieldset[disabled] .btn-success.focus {
   color: #fff;
   background-color: #20638f;
   border-color: #194f72;
+}
+@-webkit-keyframes ink {
+  0% {
+    opacity: 1;
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  100% {
+    background-color: #2472a4;
+    opacity: 0;
+    -webkit-transform: scale(5);
+            transform: scale(5);
+  }
+}
+@keyframes ink {
+  0% {
+    opacity: 1;
+    -webkit-transform: scale(0);
+         -o-transform: scale(0);
+            transform: scale(0);
+  }
+  100% {
+    background-color: #2472a4;
+    opacity: 0;
+    -webkit-transform: scale(5);
+         -o-transform: scale(5);
+            transform: scale(5);
+  }
 }
 .btn-info:active:hover,
 .btn-info.active:hover,
@@ -3320,6 +3447,34 @@ fieldset[disabled] .btn-info.focus {
   background-color: #bf6516;
   border-color: #9f5412;
 }
+@-webkit-keyframes ink {
+  0% {
+    opacity: 1;
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  100% {
+    background-color: #d67118;
+    opacity: 0;
+    -webkit-transform: scale(5);
+            transform: scale(5);
+  }
+}
+@keyframes ink {
+  0% {
+    opacity: 1;
+    -webkit-transform: scale(0);
+         -o-transform: scale(0);
+            transform: scale(0);
+  }
+  100% {
+    background-color: #d67118;
+    opacity: 0;
+    -webkit-transform: scale(5);
+         -o-transform: scale(5);
+            transform: scale(5);
+  }
+}
 .btn-warning:active:hover,
 .btn-warning.active:hover,
 .open > .dropdown-toggle.btn-warning:hover,
@@ -3377,6 +3532,34 @@ fieldset[disabled] .btn-warning.focus {
   color: #fff;
   background-color: #d62c1a;
   border-color: #b62516;
+}
+@-webkit-keyframes ink {
+  0% {
+    opacity: 1;
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  100% {
+    background-color: #e43725;
+    opacity: 0;
+    -webkit-transform: scale(5);
+            transform: scale(5);
+  }
+}
+@keyframes ink {
+  0% {
+    opacity: 1;
+    -webkit-transform: scale(0);
+         -o-transform: scale(0);
+            transform: scale(0);
+  }
+  100% {
+    background-color: #e43725;
+    opacity: 0;
+    -webkit-transform: scale(5);
+         -o-transform: scale(5);
+            transform: scale(5);
+  }
 }
 .btn-danger:active:hover,
 .btn-danger.active:hover,

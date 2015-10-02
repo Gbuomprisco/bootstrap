@@ -1,0 +1,46 @@
+.ink(@color) {
+  @-webkit-keyframes ink {
+    0% {
+      opacity: 1;
+      transform: scale(0);
+    }
+    100% {
+      opacity: 0;
+      transform: scale(5);
+      background-color: @color;
+    }
+  }
+  @-moz-keyframes ink {
+    0% {
+      opacity: 1;
+      transform: scale(0);
+    }
+    100% {
+      opacity: 0;
+      transform: scale(5);
+      background-color: @color;
+    }
+  }
+  @-ms-keyframes ink {
+    0% {
+      opacity: 1;
+      transform: scale(0);
+    }
+    100% {
+      opacity: 0;
+      transform: scale(5);
+      background-color: @color;
+    }
+  }
+  @keyframes ink {
+    0% {
+      opacity: 1;
+      transform: scale(0);
+    }
+    100% {
+      opacity: 0;
+      transform: scale(5);
+      background-color: @color;
+    }
+  }
+}
